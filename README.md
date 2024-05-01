@@ -6,7 +6,7 @@ A wheel file install and use it...
 - step1 : create a folder(i.e. 1st folder)
 - step2 : create three files in 1st folder such as readme.txt,
         Licence.txt and setup.py
-        In setup.py file import setuptools package and use setup function (from setuptools import setup) 
+        In setup.py file import setuptools package and use setup function (`from setuptools import setup`) 
         write your package description in setup()
         function such as name,description,author,version.
         aurthor_email,packages,install_requires and
@@ -17,7 +17,7 @@ A wheel file install and use it...
 
 - step4 : open vscode or cmd or any python IDLE in first
          folder and go to terminal and type the following command : 
-                python setup.py sdist bdist_wheel
+                `python setup.py sdist bdist_wheel`
         and hit enter
         Now we have successfully created our wheel file.
 - step5 : go to the dist folder which have been created after running (`python setup.py sdist bdist_wheel`) command
