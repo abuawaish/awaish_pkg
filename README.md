@@ -1,6 +1,6 @@
 - PyPi link for awaish-pkg : [https://pypi.org/project/awaish-pkg/]
 - PyPi link for abu-project : [https://pypi.org/project/abu-project/]
-# **A wheel file install and use it...**
+# **A wheel file in Python is a binary package or package distribution format (with a `.whl` extension) that includes all necessary files and metadata for a package, enabling faster installations and better dependency management with `pip`.**
 ## NOTE - open cmd in same folder where your wheel file exist or just copy the path of your wheel file and type the following command in terminal
                             pip install your_wheel_file_name(i.e. awaish_pkg-2.4-py3-none-any.whl)
 
