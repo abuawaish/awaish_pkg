@@ -63,7 +63,7 @@ A wheel file (`.whl`) is a binary distribution format in Python. It includes all
    ```
 ## 3. Add Your Package Code
  - **Inside the main folder, create another folder (e.g., package_folder) to house your package code.**
- - **Inside this folder, create an __init__.py file and write your Python code.**
+ - **Inside this folder, create an `__init__.py` file and write your Python code.**
 ## 4. Build the Wheel File
  - **Open a terminal in the main folder (or navigate to it using your terminal/IDE).**
  - **Run the following command:**
