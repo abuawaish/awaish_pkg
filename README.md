@@ -32,20 +32,20 @@ A wheel file (`.whl`) is a binary distribution format in Python. It includes all
 ## 1. Create a Project Directory
  - **Create a folder (e.g., project_folder) to house your project files.**
 ## 2. Add Essential Files
- - **Inside the folder, create the following files:**
+### **Inside the folder, create the following files:**
  
  - **README.txt** : A description of your project.
  - **LICENSE.txt** : Licensing information for your project.
  - **setup.py** : A Python script for package configuration.
  - **In setup.py** , import the setuptools package and use the setup() function. Include details like:
  
-   **1. name**
-   **2. description**
-   **3. author**
-   **4. version**
-   **5. author_email**
-   **6. packages**
-   **7. install_requires, etc.**
+   1. name
+   2. description
+   3. author
+   4. version
+   5. author_email
+   6. packages
+   7. install_requires, etc.
 
 ### Example setup.py snippet:
    ```bash
