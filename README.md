@@ -4,7 +4,7 @@
 - PyPi link for awaish-pkg : [click here](https://pypi.org/project/awaish-pkg/)
 - PyPi link for abu-project : [click here](https://pypi.org/project/abu-project/)
 - pypi link for pattern-sort-package : [click here](https://pypi.org/project/pattern-sort-package/)
-- pypi link for AbuCrudApp : [click here](https://pypi.org/project/AbuCrudApp/)
+- pypi link for PyAwaish : [click here](https://pypi.org/project/PyAwaish/)
 
 # Creating and Installing Python Wheel Packages
 
