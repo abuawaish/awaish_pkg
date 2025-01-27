@@ -1,5 +1,5 @@
 # **PyPi Package Links**
-#### **Here ae my Python packages available on PyPi:**
+#### **Here are my Python packages available on PyPi:**
 
 - PyPi link for awaish-pkg : [click here](https://pypi.org/project/awaish-pkg/)
 - PyPi link for abu-project : [click here](https://pypi.org/project/abu-project/)
@@ -23,7 +23,7 @@ pip install your_wheel_file_name.whl
 ### Follow these steps to create your own Python wheel file:
 
 #### **1. Create the Folder Structure**
-**Create a new folder (let's call it project_folder) to hold your package.**
+- **Create a new folder (let's call it project_folder) to hold your package.**
 ```bash
 mkdir project_folder/
 ```
@@ -51,7 +51,7 @@ setup(
 **In this file, you can customize the metadata and dependencies for your package.**
 
 #### **3. Create Another Folder for Your Package Code**
-**Inside project_folder, create another folder (let's call it your_package) where the Python code will reside**
+- **Inside project_folder, create another folder (let's call it your_package) where the Python code will reside**
 ```bash
 project_folder/
     your_package/
@@ -60,16 +60,16 @@ project_folder/
 **`The __init__.py` file is essential because it makes Python treat this folder as a package.**
 
 #### **4. Build the Wheel File**
-**Now, navigate to the project_folder and open your terminal or command prompt.**
+- **Now, navigate to the project_folder and open your terminal or command prompt.**
 
-**Run the following command to generate both the source distribution and the wheel file**
+- **Run the following command to generate both the source distribution and the wheel file**
 ```bash
 python setup.py sdist bdist_wheel
 ```
 **This will create a `dist/` folder inside `project_folder/`, which will contain your `.whl file`.**
 
 #### **5. Locate the Wheel File**
-**After running the above command, navigate to the `dist/` folder:**
+- **After running the above command, navigate to the `dist/` folder:**
 ```bash
 project_folder/
     dist/
@@ -77,14 +77,14 @@ project_folder/
 ```
 
 #### **6. Install the Wheel File**
-**To install your wheel file, use the following command**
+- **To install your wheel file, use the following command**
 ```bash
 pip install path_to_your_wheel_file/your_package_name-0.1-py3-none-any.whl
 ```
 **Replace `path_to_your_wheel_file` with the actual path to your `.whl file`.**
 
 # **How to Use the Installed Package**
-**Once the wheel file is installed, you can use it in your Python project by importing it:**
+- **Once the wheel file is installed, you can use it in your Python project by importing it:**
 ```bash
 import your_package
 ```
